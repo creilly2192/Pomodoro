@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/mystyle.css" type="text/css">
+
+    <title>TimeOut</title>
+
+  </head>
+
+
+  <body>
+
+      <div class="container">
+        <div class="row">
+          <div id="timeAdj">
+            <div class="col-md-6 text-center">
+              <h4>Break Time</h4>
+              <h5 id="breakTime">5</h5>
+              <button id="subBreak" class="time-control btn sub-break adj-btn">-</button>
+              <button id="addBreak" class="time-control btn add-break adj-btn">+</button>
+            </div>
+            <div class="col-md-6 text-center">
+              <h4>Session Time</h4>
+              <h5 id="sessionTime">25</h5>
+              <button id="subSession" class="time-control btn sub-session adj-btn">-</button>
+              <button id="addSession" class="time-control btn add-session adj-btn">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12  text-center">
+            <h1 id="timeout-holder" class="text-center style">
+              <span id="minutes">25</span> : <span id="seconds">00</span>
+            </h1>
+            <button type="button" class="btn btn-default start text-center">Start</button>
+            <button type="button" class="btn btn-default stop text-center">Stop</button>
+            <button type="button" class="btn btn-default reset text-center">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <audio class="finished">
+      <source src="audience.mp3" type="audio/mpeg">
+    </audio>
+
+    <!--jQuery-->
+    <script src="JS/jquery-1.11.3.min.js"></script>
+
+    <!--Bootstrap JS-->
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="//platform.twitter.com/widgets.js"></script>
+
+
+
+    <!--Custom JS-->
+    <script src="JS/main.js"></script>
+
+  </body>
+
+
+</html>

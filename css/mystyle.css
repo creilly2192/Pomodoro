@@ -1,0 +1,67 @@
+html,
+body {
+  width: 100%;
+}
+
+h4{
+  text-transform: uppercase;
+}
+
+.adj-btn {
+  background-color: transparent;
+  border: 1px solid black;
+  margin-top: 5px;
+  padding: 7px 14px;
+  transition: all .35s;
+  border-radius: 0;
+}
+
+#breakTime,
+#sessionTime {
+  font-size: 20px;
+
+}
+
+#timeout-holder {
+  margin-top: 110px;
+  font-size: 220px;
+  font-weight: 100;
+}
+
+@media (max-width: 1200px) {
+    #timeout-holder{
+      font-size: 100px;
+    }
+}
+
+.btn-default {
+  border: 1px solid black;
+  padding: 10px 40px;
+  border-radius: 0;
+  margin: 0 auto;
+  text-transform: uppercase;
+  transition: all .35s;
+
+}
+
+.start,
+.add-break:hover,
+.add-session:hover{
+  background-color: mediumseagreen;
+  border-color: mediumseagreen;
+  color: white;
+}
+
+.reset{
+  background-color: goldenrod;
+  border-color: goldenrod;
+  display: none;
+}
+
+.stop,
+.sub-break:hover,
+.sub-session:hover {
+  background-color: tomato;
+  border-color: tomato;
+  color: white;
+}
